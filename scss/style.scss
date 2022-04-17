@@ -1,0 +1,51 @@
+@import "_header";
+
+h1{
+	color: lightgreen;
+}
+
+body{
+	font-size: 20px;
+	div{
+		font-size: 10px;
+
+	}
+}
+
+.block {
+
+	// .block__item
+
+	&__item {
+	}
+
+	// .block__1
+
+	&__1 {
+	}
+
+	// .block__2
+
+	&__2 {
+	}
+
+	// .block__3
+
+	&__3 {
+	}
+}
+.blocke {
+
+	// .blocke__item
+
+	&__item {
+	}
+}
+.red{
+	color: red;
+}
+@media (max-width: 767px) {
+	.red {
+		border: 0;
+	}	
+}
